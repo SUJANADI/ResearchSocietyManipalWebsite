@@ -1,0 +1,17 @@
+// {
+//   "compilerOptions": {
+//     "baseUrl": ".",
+//     "paths": {
+//       "@/*": ["./*"]
+//     }
+//   }
+// }
+
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "allowJs": true,
+    "skipLibCheck": true
+  }
+}
+

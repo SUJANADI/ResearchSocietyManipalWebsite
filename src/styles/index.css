@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=IBM+Plex+Mono&family=Playfair+Display&display=swap");
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: "Inter", sans-serif;
+
+  }
+}
+
+@layer components {
+  input[type="checkbox"]:checked ~ label span svg {
+    @apply inline-flex;
+  }
+
+  .sticky .header-logo {
+    @apply py-5 lg:py-2;
+  }
+
+  .sticky .menu-scroll.active {
+    @apply opacity-70;
+  }
+
+  input#togglePlan:checked ~ .dot {
+    @apply translate-x-full;
+  }
+
+  input#checkboxLabel:checked ~ .box span {
+    @apply opacity-100;
+  }
+}
+
+/* Default (Light Mode) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Scrollbar Handle */
+::-webkit-scrollbar-thumb {
+  background: #6268ff; /* Primary color */
+  border-radius: 4px;
+}
+
+/* Scrollbar Handle on Hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3c81ff; /* Darker shade */
+}
+
+/* Light Mode - White Background */
+::-webkit-scrollbar-track {
+  background: #ffffff; /* Light mode background */
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+  ::-webkit-scrollbar-track {
+    background: #0a192f; /* Dark blue background */
+  }
+}
+
+
+
+
+
+
