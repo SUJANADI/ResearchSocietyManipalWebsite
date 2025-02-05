@@ -9,7 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "predeploy": "npm run build && next export",
-    "deploy": "gh-pages -d out",
+    "deploy": "npm run predeploy && gh-pages -d out",
     "export": "next export"
   },
   "dependencies": {
