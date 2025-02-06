@@ -52,7 +52,7 @@ const featuresData: Feature[] = [
         width="60px"
         height="60px"
         viewBox="0 0 1024 1024"
-        class="icon"
+        className="icon"
         version="1.1"
         xmlns="http://www.w3.org/2000/svg"
         fill="#000000"
@@ -137,7 +137,7 @@ const featuresData: Feature[] = [
           //style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;shape-padding:0;isolation:auto;mix-blend-mode:normal"
           transform="scale(.26458)"
           fill="#4e58e9"
-          class="color000000 svgShape"
+          className="color000000 svgShape"
         ></path>
       </svg>
     ),
@@ -195,7 +195,7 @@ const featuresData: Feature[] = [
         <path
           d="M28.41,15.09,27,14.46V13a1,1,0,0,0-2,0v.57l-1-.45S24,13,24,13V12a1,1,0,0,0-2,0v.24l-2.3-1,.16-3.91A4.28,4.28,0,0,0,18.7,4.17a3.78,3.78,0,0,0-5.4,0,4.28,4.28,0,0,0-1.16,3.14l.16,3.91-2.3,1V12a1,1,0,0,0-2,0v1s0,.08,0,.12l-1,.45V13a1,1,0,0,0-2,0v1.46l-1.41.63A1,1,0,0,0,3,16v2a1,1,0,0,0,1,1h8.62l.14,3.2-4.33,3A1,1,0,0,0,8,26v2a1,1,0,0,0,.42.81,1,1,0,0,0,.9.14L13,27.73V28a1,1,0,0,0,1,1h4a1,1,0,0,0,1-1v-.31L22.68,29A1.19,1.19,0,0,0,23,29a.94.94,0,0,0,.58-.19A1,1,0,0,0,24,28V26a1,1,0,0,0-.43-.82l-4.33-3,.14-3.2H28a1,1,0,0,0,1-1V16A1,1,0,0,0,28.41,15.09ZM5,17v-.35l7.39-3.28L12.54,17Zm17,9.53v.08l-3.62-1.2a1,1,0,0,0-.88.12,1,1,0,0,0-.43.78L17,27H15l0-.69a1,1,0,0,0-.43-.78,1,1,0,0,0-.88-.12L10,26.61v-.08l4.35-3a1,1,0,0,0,.43-.87L14.14,7.23a2.27,2.27,0,0,1,.6-1.67,1.74,1.74,0,0,1,2.52,0,2.27,2.27,0,0,1,.6,1.67l-.64,15.44a1,1,0,0,0,.43.87ZM27,17H19.46l.15-3.63L27,16.65Z"
           fill="#4e58e9"
-          class="color000000 svgShape"
+          className="color000000 svgShape"
         ></path>
       </svg>
     ),
@@ -216,7 +216,7 @@ const featuresData: Feature[] = [
         <path
           d="M12,29v4a1,1,0,0,0,1,1H35a1,1,0,0,0,1-1V29a5,5,0,0,0,0-10V16a4,4,0,0,0-4-4H25V7.82a3,3,0,1,0-2,0V12H16a4,4,0,0,0-4,4v3a5,5,0,0,0,0,10ZM24,4a1,1,0,1,1-1,1A1,1,0,0,1,24,4Zm1,24v4H23V28Zm-4,4H19V28h2Zm6,0V28h2v4Zm12-8a3,3,0,0,1-3,3V21A3,3,0,0,1,39,24ZM14,16a2,2,0,0,1,2-2H32a2,2,0,0,1,2,2V32H31V27a1,1,0,0,0-1-1H18a1,1,0,0,0-1,1v5H14V16Zm-2,5v6a3,3,0,0,1,0-6Zm7,2a3,3,0,1,0-3-3A3,3,0,0,0,19,23Zm0-4a1,1,0,1,1-1,1A1,1,0,0,1,19,19Zm10,4a3,3,0,1,0-3-3A3,3,0,0,0,29,23Zm0-4a1,1,0,1,1-1,1A1,1,0,0,1,29,19Zm6,17H13a5,5,0,0,0-5,5v4a1,1,0,0,0,1,1H39a1,1,0,0,0,1-1V41A5,5,0,0,0,35,36Zm3,8H10V41a3,3,0,0,1,3-3H35a3,3,0,0,1,3,3Z"
           fill="#4e58e9"
-          class="color000000 svgShape"
+          className="color000000 svgShape"
         ></path>
       </svg>
     ),
@@ -237,12 +237,12 @@ const featuresData: Feature[] = [
         <path
           d="M28,1H4A3,3,0,0,0,1,4V28a3,3,0,0,0,3,3H28a3,3,0,0,0,3-3V4A3,3,0,0,0,28,1ZM4,3H28a1,1,0,0,1,1,1V7H3V4A1,1,0,0,1,4,3ZM28,29H4a1,1,0,0,1-1-1V9H29V28A1,1,0,0,1,28,29Z"
           fill="#4e58e9"
-          class="color000000 svgShape"
+          className="color000000 svgShape"
         ></path>
         <path
           d="M25.5 6H26a1 1 0 000-2h-.5a1 1 0 000 2zM21.5 6H22a1 1 0 000-2h-.5a1 1 0 000 2zM10.71 14.29a1 1 0 00-1.42 0l-4 4a1 1 0 000 1.42l4 4a1 1 0 001.42 0 1 1 0 000-1.42L7.41 19l3.3-3.29A1 1 0 0010.71 14.29zM22.71 14.29a1 1 0 00-1.42 1.42L24.59 19l-3.3 3.29a1 1 0 000 1.42 1 1 0 001.42 0l4-4a1 1 0 000-1.42zM18.32 12.05a1 1 0 00-1.27.63l-4 12A1 1 0 0013.68 26 1.25 1.25 0 0014 26a1 1 0 00.95-.68l4-12A1 1 0 0018.32 12.05z"
           fill="#4e58e9"
-          class="color000000 svgShape"
+          className="color000000 svgShape"
         ></path>
       </svg>
     ),
