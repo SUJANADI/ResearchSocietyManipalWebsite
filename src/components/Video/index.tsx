@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
 import ModalVideo from "react-modal-video";
 
@@ -26,10 +27,12 @@ const Video = () => {
               {/* Video thumbnail and trigger button */}
               <div className="relative aspect-[77/40] items-center justify-center">
                 <div className="absolute inset-0">
-                  <img
-                    src="images\video\video_img(1).jpg"
+                  <Image
+                    src="/images/video/video_img(1).jpg"
                     alt="video thumbnail"
-                    className="h-full w-full object-cover"
+                    fill
+                    className="object-cover"
+                    priority
                   />
                 </div>
                 <div className="absolute right-0 top-0 flex h-full w-full items-center justify-center">

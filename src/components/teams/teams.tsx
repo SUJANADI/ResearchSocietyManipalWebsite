@@ -238,7 +238,7 @@
 // };
 
 // export default Team;
-
+import Image from "next/image";
 import React from "react";
 
 const Team = () => {
@@ -450,11 +450,15 @@ const Team = () => {
         </div>
 
         <div className="relative z-10 mx-auto mb-5 h-[120px] w-[120px] transition-transform duration-300 group-hover:scale-110">
-          <img
-            src={member.image}
-            alt={member.name}
-            className="w-full rounded-full"
-          />
+  <Image
+    src={member.image}
+    alt={member.name}
+    width={120}
+    height={120}
+    className="w-full rounded-full"
+    priority
+  />
+</div>
         </div>
         <div className="relative z-10 text-center">
           <h4 className="mb-1 text-lg font-semibold text-dark transition-colors duration-300 group-hover:text-primary dark:text-white">
