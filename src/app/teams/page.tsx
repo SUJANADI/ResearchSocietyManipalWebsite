@@ -8,7 +8,6 @@ import TeamsPage from "@/components/teams";
 export const metadata: Metadata = {
   title: "Team Page",
   description: "This is team Page",
-  // other metadata
 };
 
 const teams = () => {
