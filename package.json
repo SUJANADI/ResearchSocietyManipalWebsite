@@ -6,11 +6,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
     "lint": "next lint",
-    "predeploy": "npm run build && next export",
-    "deploy": "npm run predeploy && gh-pages -d out",
-    "export": "next export"
+    "predeploy": "npm run build && npm run export",
+    "deploy": "npm run predeploy && gh-pages -d out --dotfiles"
   },
   "dependencies": {
     "eslint": "^8.56.0",
