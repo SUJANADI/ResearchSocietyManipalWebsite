@@ -56,15 +56,15 @@ const Header = () => {
               <Link
                 href="/"
                 className={`header-logo block w-full ${
-                  sticky ? "py-3 lg:py-2" : "py-4" // Reduced from py-8
+                  sticky ? "py-3 lg:py-2" : "py-4"
                 } `}
               >
                 <Image
                   src="/images/logo/RSM_LOGO(2).png"
                   alt="logo"
-                  width={200} // Increased from 160
-                  height={50} // Adjusted aspect ratio (4:1)
-                  className="h-12 w-[200px] dark:hidden" // Increased size
+                  width={200}
+                  height={50}
+                  className="h-12 w-[200px] dark:hidden"
                 />
                 <Image
                   src="/images/logo/RSM_LOGO(1).png"

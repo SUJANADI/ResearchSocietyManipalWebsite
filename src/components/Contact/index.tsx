@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-// import NewsLatterBox from "./NewsLatterBox";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -18,7 +17,6 @@ const Contact = () => {
 
     try {
       const response = await fetch("/api/contact", {
-        // This is the line to update
         method: "POST",
         headers: {
           "Content-Type": "application/json",

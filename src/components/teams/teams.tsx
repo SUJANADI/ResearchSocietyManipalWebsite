@@ -176,7 +176,7 @@ const Team = () => {
         </div>
 
         <div className="relative z-10 mx-auto mb-5 h-[120px] w-[120px] transition-transform duration-300 group-hover:scale-110">
-          <Image
+          <img
             src={member.image}
             alt={member.name}
             className="w-full rounded-full"

@@ -5,19 +5,19 @@ export async function POST(req: Request) {
   try {
     const { name, email, message } = await req.json();
 
-    // Configure Nodemailer transporter
+
     const transporter = nodemailer.createTransport({
-      service: "Gmail", // Use 'Gmail', 'SendGrid', 'SMTP', etc.
+      service: "Gmail", 
       auth: {
-        user: process.env.EMAIL_USER, // Your email address
-        pass: process.env.EMAIL_PASS, // Your email app password (not your personal password)
+        user: process.env.EMAIL_USER, 
+        pass: process.env.EMAIL_PASS, 
       },
     });
 
-    // Email content
+
     await transporter.sendMail({
       from: `"${name}" <${email}>`,
-      to: "sujanadiga1507@gmail.com", // Replace with your desired email
+      to: "sujanadiga1507@gmail.com", 
       subject: "New Contact Form Website",
       text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
       html: `<p><strong>Name:</strong> ${name}</p>

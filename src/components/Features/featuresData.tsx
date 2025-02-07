@@ -134,7 +134,6 @@ const featuresData: Feature[] = [
           font-family="sans-serif"
           font-weight="400"
           overflow="visible"
-          //style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;shape-padding:0;isolation:auto;mix-blend-mode:normal"
           transform="scale(.26458)"
           fill="#4e58e9"
           className="color000000 svgShape"
